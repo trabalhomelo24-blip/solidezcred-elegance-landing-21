@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img 
-            src="/lovable-uploads/229e6d3e-e584-44d3-8baf-4f3fb70f79ec.png" 
+            src="/lovable-uploads/e4ea968b-0d13-4b0e-9cbb-b55dc40ae786.png" 
             alt="SolidezCred Logo" 
             className="h-8 w-auto"
           />
