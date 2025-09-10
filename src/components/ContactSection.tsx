@@ -38,8 +38,7 @@ const ContactSection = () => {
                 <p className="text-blue-100 mb-3">(62) 99311-3553</p>
                 <Button 
                   onClick={handleWhatsAppClick}
-                  variant="outline"
-                  className="text-white border-white/30 hover:bg-white/10"
+                  variant="outline-white"
                 >
                   Conversar Agora
                 </Button>
@@ -55,8 +54,7 @@ const ContactSection = () => {
                 <p className="text-blue-100 mb-3">solidezcredcca@gmail.com</p>
                 <Button 
                   onClick={handleEmailClick}
-                  variant="outline"
-                  className="text-white border-white/30 hover:bg-white/10"
+                  variant="outline-white"
                 >
                   Enviar E-mail
                 </Button>
@@ -75,8 +73,7 @@ const ContactSection = () => {
                 </p>
                 <Button 
                   onClick={handleMapsClick}
-                  variant="outline"
-                  className="text-white border-white/30 hover:bg-white/10"
+                  variant="outline-white"
                 >
                   Ver no Mapa
                 </Button>
@@ -115,20 +112,6 @@ const ContactSection = () => {
                 <MessageCircle className="w-5 h-5 mr-3" />
                 Falar no WhatsApp
               </Button>
-              
-              <div className="text-center">
-                <p className="text-sm text-blue-200">
-                  Ou visite nosso site: 
-                  <a 
-                    href="https://solidezcred.com.br" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-white hover:underline ml-1"
-                  >
-                    solidezcred.com.br
-                  </a>
-                </p>
-              </div>
             </div>
           </div>
         </div>

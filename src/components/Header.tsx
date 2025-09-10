@@ -10,9 +10,11 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">S</span>
-          </div>
+          <img 
+            src="/lovable-uploads/229e6d3e-e584-44d3-8baf-4f3fb70f79ec.png" 
+            alt="SolidezCred Logo" 
+            className="h-8 w-auto"
+          />
           <span className="text-xl font-semibold text-primary">SolidezCred</span>
         </div>
         
