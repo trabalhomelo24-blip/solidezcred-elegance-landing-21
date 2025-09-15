@@ -22,11 +22,11 @@ const AboutSection = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
                 {/* Image Section */}
                 <div className="relative overflow-hidden">
-                  <div className="aspect-square lg:aspect-auto lg:h-full bg-gradient-to-br from-primary/10 to-primary/5">
+                  <div className="aspect-[4/5] lg:aspect-auto lg:h-full bg-gradient-to-br from-primary/10 to-primary/5">
                     <img
                       src={lorraneProfile}
                       alt="Lorrane Furtado - Correspondente Bancária"
-                      className="w-full h-full object-cover object-center"
+                      className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700 ease-out animate-fade-in"
                     />
                   </div>
                   <div className="absolute top-6 right-6">
