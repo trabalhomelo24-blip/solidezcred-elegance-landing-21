@@ -20,7 +20,7 @@ const HeroSection = () => {
       </video>
       
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-blue-800/70 to-teal-700/60 z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-blue-800/85 to-teal-700/80 z-10"></div>
       
       <div className="container mx-auto px-4 text-center relative z-20">
         <div className="max-w-4xl mx-auto">
