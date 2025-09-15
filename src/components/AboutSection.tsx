@@ -22,11 +22,11 @@ const AboutSection = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
                 {/* Image Section */}
                 <div className="relative overflow-hidden">
-                  <div className="aspect-[4/5] lg:aspect-auto lg:h-full bg-gradient-to-br from-primary/10 to-primary/5">
+                  <div className="aspect-[3/4] sm:aspect-[4/5] lg:aspect-auto lg:h-full bg-gradient-to-br from-primary/10 to-primary/5">
                     <img
                       src={lorraneProfile}
                       alt="Lorrane Furtado - Correspondente Bancária"
-                      className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700 ease-out animate-fade-in"
+                      className="w-full h-full object-contain object-center hover:scale-105 transition-transform duration-700 ease-out animate-fade-in"
                     />
                   </div>
                   <div className="absolute top-6 right-6">
@@ -47,9 +47,9 @@ const AboutSection = () => {
                         Correspondente Bancária Especializada
                       </p>
                       <p className="text-muted-foreground leading-relaxed">
-                        Com anos de experiência no mercado financeiro, Lorrane é especialista em 
-                        crédito imobiliário e financiamentos. Sua dedicação e conhecimento técnico 
-                        garantem as melhores condições e orientação personalizada para cada cliente.
+                        Formada em Administração e com mais de 10 anos de experiência no mercado financeiro, 
+                        Lorrane é especialista em crédito imobiliário e financiamentos. Sua dedicação e 
+                        conhecimento técnico garantem as melhores condições e orientação personalizada para cada cliente.
                       </p>
                     </div>
 
@@ -59,7 +59,7 @@ const AboutSection = () => {
                           <Calendar className="w-5 h-5 text-primary" />
                         </div>
                         <div>
-                          <p className="font-semibold text-foreground">+5 Anos</p>
+                          <p className="font-semibold text-foreground">+10 Anos</p>
                           <p className="text-sm text-muted-foreground">Experiência</p>
                         </div>
                       </div>
@@ -99,7 +99,6 @@ const AboutSection = () => {
                       <h4 className="font-semibold text-foreground mb-3">Especialidades:</h4>
                       <div className="flex flex-wrap gap-2">
                         <Badge variant="outline">Financiamento Imobiliário</Badge>
-                        <Badge variant="outline">Crédito Rural</Badge>
                         <Badge variant="outline">Consignado</Badge>
                         <Badge variant="outline">Refinanciamento</Badge>
                       </div>
