@@ -7,8 +7,22 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="hero-section min-h-screen flex items-center justify-center pt-16">
-      <div className="container mx-auto px-4 text-center relative z-10">
+    <section className="hero-section min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      >
+        <source src="/hero-video.mp4" type="video/mp4" />
+      </video>
+      
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-blue-800/70 to-teal-700/60 z-10"></div>
+      
+      <div className="container mx-auto px-4 text-center relative z-20">
         <div className="max-w-4xl mx-auto">
           <div className="fade-in">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
